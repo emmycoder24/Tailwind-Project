@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Dev & Computer Engineer Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+    <!-- Hero Section -->
+        <!-- Hero Section -->
+        <section class="bg-gradient-to-r from-green-400 to-blue-500 h-screen flex items-center justify-center text-white">
+            <div class="text-center">
+                <!-- Add your image here -->
+                <!-- <img src="IMG_3609.JPG" alt="Agulu Emmanuel"class="mx-auto rounded-lg w-60 h-60 object-cover mb-4"> -->
+
+                <h1 class="text-5xl font-bold">Agulu Emmanuel</h1>
+                <p class="text-xl mt-4">Frontend Developer & Computer Engineer</p>
+                <a href="#projects" class="mt-6 inline-block bg-white text-green-500 py-3 px-6 rounded-lg hover:bg-gray-100">View My Projects</a>
+            </div>
+        </section>
+    
+
+    <!-- About Me Section -->
+    <section id="about" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-6">About Me</h2>
+            <p class="text-lg text-center max-w-3xl mx-auto">I am a frontend developer with a strong background in computer engineering. I specialize in creating clean, user-friendly web applications and have experience in hardware systems, and embedded software. My unique combination of skills allows me to bridge the gap between hardware and software, making me particularly adept at full-stack development and innovative tech solutions.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-8">Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Skill Cards -->
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold">Frontend Development</h3>
+                    <p class="mt-2">HTML, CSS, JavaScript, Tailwind CSS</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold">Backend Development</h3>
+                    <p class="mt-2">Node.js, Express, RESTful APIs</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold">Computer Engineering</h3>
+                    <p class="mt-2">C, Microcontrollers, FPGA, Verilog, Embedded Systems</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-8">Proects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project Card 1 -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold">IoT Dashboard for Smart Home</h3>
+                    <p class="mt-2">Developed a web dashboard using React to control and monitor smart home devices through a microcontroller-based IoT system.</p>
+                    <a href="https://github.com/janedoe/iot-dashboard" class="text-indigo-600 hover:underline">View Project</a>
+                </div>
+                <!-- Project Card 2 -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold">Custom PCB for Embedded Systems</h3>
+                    <p class="mt-2">Designed and programmed a custom PCB for a robotic arm, including embedded control systems and sensor interfacing.</p>
+                    <a href="https://github.com/janedoe/embedded-pcb" class="text-indigo-600 hover:underline">View Project</a>
+                </div>
+                <!-- Project Card 3 -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold">E-commerce Web App</h3>
+                    <p class="mt-2">Created a full-stack e-commerce web application using React, Node.js, and Tailwind CSS.</p>
+                    <a href="https://github.com/emmycoder24/Bootstrap-Fashion-2" class="text-indigo-600 hover:underline">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<body class="bg-gray-100">
+
+    <!-- Contact Form Section -->
+    <section class="bg-white py-10 px-4">
+        <div class="max-w-lg mx-auto">
+            <h2 class="text-3xl font-semibold text-gray-700 text-center mb-6">Get In Touch</h2>
+
+            <!-- Contact Form -->
+            <form action="#" method="POST" class="space-y-6">
+                <!-- Name Field -->
+                <div>
+                    <label for="name" class="block text-gray-600 font-semibold mb-2">Name</label>
+                    <input 
+                        type="text" 
+                        id="name" 
+                        name="name" 
+                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                        placeholder="Your Name" 
+                        required>
+                </div>
+
+                <!-- Email Field -->
+                <div>
+                    <label for="email" class="block text-gray-600 font-semibold mb-2">Email</label>
+                    <input 
+                        type="email" 
+                        id="email" 
+                        name="email" 
+                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                        placeholder="Your Email" 
+                        required>
+                </div>
+
+                <!-- Message Field -->
+                <div>
+                    <label for="message" class="block text-gray-600 font-semibold mb-2">Message</label>
+                    <textarea 
+                        id="message" 
+                        name="message" 
+                        rows="5"
+                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                        placeholder="Your Message" 
+                        required></textarea>
+                </div>
+
+                <!-- Submit Button -->
+                <div>
+                    <button 
+                        type="submit" 
+                        class="w-full bg-indigo-500 text-white font-semibold py-2 px-4 rounded-md hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                        Send Message
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white py-6 mt-10">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <!-- Social Media Icons -->
+            <div class="mb-4 md:mb-0">
+                <ul class="flex space-x-6">
+                    <li><a href="https://facebook.com" target="_blank" class="text-gray-400 hover:text-white text-xl"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com" target="_blank" class="text-gray-400 hover:text-white text-xl"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://instagram.com" target="_blank" class="text-gray-400 hover:text-white text-xl"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://linkedin.com" target="_blank" class="text-gray-400 hover:text-white text-xl"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+
+            <!-- Copyright Information -->
+            <div class="text-center text-gray-400">
+                &copy; 2024 Agulu Emmanuel. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
